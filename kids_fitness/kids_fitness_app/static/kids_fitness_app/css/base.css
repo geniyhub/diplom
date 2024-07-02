@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ledger', sans-serif;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #113C65;
+    position: fixed;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    width: 15%;
+    z-index: 10;
+}
+
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebar .logo img {
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #C6DFF7; 
+}
+
+
+.sidebar .contact-info {
+    margin-top: auto;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a {
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar .contact-info a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 15%;
+    padding: 20px;
+    z-index: 1;
+}

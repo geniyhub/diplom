@@ -1,0 +1,61 @@
+{% extends 'kids_fitness_app/base.html' %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'kids_fitness_app/css/about_us.css' %}">
+{% endblock %}
+
+{% block content %}
+<img src="{% static 'kids_fitness_app/img/aboutus.png' %}" alt="" class="bg-image">
+
+<div class="row">
+    <div class="col-xl-8 col-12">
+        <div class="card card-1">
+            <img src="{% static 'kids_fitness_app/img/aboutusimg.png' %}" class="card-img-top" alt="aboutusimg">
+            <div class="card-body">
+              <p class="card-text">Ласкаво просимо до нашої студії дитячого фітнесу – місця, де здоров'я та розвиток ваших дітей є нашою головною метою! Ми пропонуємо різноманітні послуги, які допоможуть вашим дітям залишатися активними, здоровими та щасливими.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-12 col-cards">
+        <div class="card cards card-2">
+            <div class="card-body">
+              <p class="card-text">Групові тренування: <br>
+                • Дитячий фітнес для вікових груп 4-8 років та 2-3 роки. <br>
+                • ЛФК (лікувальна фізкультура). <br>
+                • ЗФП (загально фізична підготовка).</p>
+            </div>
+          </div>
+          <div class="card cards card-3">
+            <div class="card-body">
+              <p class="card-text">Індивідуальні тренування: <br>
+                • Сенсорна інтеграція. <br>
+                • Мозочкова стимуляція. <br>
+                • Робота з затримкою мовного та фізичного розвитку. <br>
+                • Загально фізична підготовка. <br>
+                • Лікувальна фізкультура. <br>
+                • Корекція сколіотичної осанки, вальгусу та плоскостопості.</p>
+            </div>
+          </div>
+          <div class="card cards card-4">
+            <div class="card-body">
+              <p class="card-text">Ми часто формуємо сезонні акції, щоб зробити наші послуги ще доступнішими: <br>
+                • Перше відвідування – БЕЗКОШТОВНЕ. <br>
+                • Приведи друга та отримай знижку 50% на місячне відвідування.</p>
+            </div>
+          </div>
+    </div>
+</div>
+          
+    <div class="image-links d-flex justify-content-center">
+      <a href="https://www.facebook.com/groups/159212643825421/?_rdr" target="_blank">
+          <img src="{% static 'kids_fitness_app/img/facebook.png' %}" alt="facebook" class="image-link">
+      </a>
+      <a href="https://www.instagram.com/kids_fitness_dnipro/" target="_blank">
+          <img src="{% static 'kids_fitness_app/img/inst.png' %}" alt="instagram" class="image-link">
+      </a>
+      <a href="https://t.me/AnastasiiaRyemyen" target="_blank">
+          <img src="{% static 'kids_fitness_app/img/tg.png' %}" alt="telegram" class="image-link">
+      </a>
+  </div>
+
+{% endblock %}
